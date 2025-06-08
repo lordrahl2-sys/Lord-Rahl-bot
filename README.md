@@ -7,4 +7,4 @@
   *coding has started soon you will be updated when LORD RAHL is done*
 
 
-'Thanks to ObedTech'
+`Thanks to ObedTech` 🌎

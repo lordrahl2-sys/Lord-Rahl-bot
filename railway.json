@@ -1,0 +1,16 @@
+{
+  "name": "HUNTER-XMD",
+  "description": "For deploying HUNTER-XMD.",
+  "repository": "https://github.com/ObedTech003/Hunter-xmd1",
+  "build": {
+    "commands": {
+      "install": "yarn install",
+      "start": "yarn start"
+    }
+  },
+  "envs": {
+    "SESSION_ID": {
+      "description": "Put Your Session Id"
+    }
+  }
+}

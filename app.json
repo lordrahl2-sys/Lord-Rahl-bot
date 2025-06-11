@@ -1,7 +1,7 @@
 {
   "name": "LORD RAHL ",
   "description": "Javascript WhatsApp bot made by arlbart",
-  "logo": "https://files.catbox.moe/mdn0ez.jpg",
+  "logo": "https://files.catbox.moe/n78t6r.jpg",
   "keywords": ["LORD RAHL"],
   "success_url": "/",
 
@@ -79,7 +79,7 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY ᎻႮΝͲᎬᎡ ХᎷᎠ✅*"
+      "value": "*SEEN YOUR STATUS BY LORD RAHL✅*"
    
      }, 
     
@@ -132,7 +132,7 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/mdn0ez.jpg"
+      "value": "https://files.catbox.moe/n78t6r.jpg"
     },
     
      "DESCRIPTION": {

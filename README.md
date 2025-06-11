@@ -7,7 +7,7 @@
 
 <!-- Action Buttons -->
 <p align="center">
-  <a href="https://www.ibrahimadams.site/scanner">
+  <a href="https://lord-rahl-pair-site.onrender.com">
     <img title="GET SESSION OPT 1" src="https://img.shields.io/badge/🔑_GET_QUANTUM_SESSION-000000?style=for-the-badge&logo=quantum&logoColor=white&color=skyblue" width="260" height="50"/>
   </a>
   
@@ -37,21 +37,10 @@
   <b>Referral Code for Railway:</b> <code>AqkNn4</code>
 </p>
 
-<!-- Glowing Footer -->
-<p align="center">
-  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
-</p>
-
-<h3 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&duration=3000&color=FFFFFF&background=000000&center=true&vCenter=true&width=600&lines=💎+BWM+XMD+Quantum+Edition+by+Ibrahim+Adams;⚡+The+Future+of+WhatsApp+Bots+is+Here" alt="Footer Animation">
-</h3>
-
-<p align="center">
-  <img src="https://i.imgur.com/dBaSKWF.gif" height="40" width="100%">
-</p>
 
 
-  *coding has started soon you will be updated when LORD RAHL is done*
+
+  **coding has started soon you will be updated when LORD RAHL is done**
 
 
 `Thanks to ObedTech` 🌎

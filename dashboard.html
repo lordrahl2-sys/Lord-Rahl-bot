@@ -1,0 +1,67 @@
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard – Lord Rahl Bot Host</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📂 Your Dashboard</h1>
+    <p>Upload your Baileys session file (`auth_info.json`)</p>
+
+    <input type="file" id="fileInput" accept=".json" />
+    <button id="uploadBtn">Upload Session</button>
+
+    <p id="uploadStatus"></p>
+
+    <hr />
+
+    <button onclick="deployBot()">🚀 Deploy Bot</button>
+    <p><a href="#" id="logoutBtn">Logout</a></p>
+  </div>
+
+  <script type="module" src="firebase-config.js"></script>
+  <script type="module">
+    import { auth, storage, ref, uploadBytes, signOut } from './firebase-config.js';
+
+    // Upload session file
+    const fileInput = document.getElementById('fileInput');
+    const uploadBtn = document.getElementById('uploadBtn');
+    const uploadStatus = document.getElementById('uploadStatus');
+
+    uploadBtn.addEventListener('click', async () => {
+      const file = fileInput.files[0];
+      if (!file) {
+        uploadStatus.textContent = "Please select a file.";
+        return;
+      }
+
+      const storageRef = ref(storage, 'sessions/' + file.name);
+      try {
+        await uploadBytes(storageRef, file);
+        uploadStatus.textContent = "✅ Session uploaded successfully!";
+      } catch (err) {
+        uploadStatus.textContent = "❌ Upload failed: " + err.message;
+      }
+    });
+
+    // Deploy Bot
+    window.deployBot = () => {
+      alert("Deployment command sent! (Mock)");
+      // You can call your webhook or Railway trigger URL here
+      // fetch('https://your-deploy-webhook-url.com/deploy')
+    };
+
+    // Logout
+    const logoutBtn = document.getElementById('logoutBtn');
+    logoutBtn.addEventListener('click', async () => {
+      await signOut(auth);
+      alert('Logged out!');
+      window.location.href = 'login.html';
+    });
+  </script>
+</body>
+</html>
